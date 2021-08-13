@@ -1,7 +1,7 @@
 {
     "name": "sat",
     "version": "1.0.0",
-    "description": "separated axis theorem",
+    "description": "separating axis theorem",
     "main": "index.js",
     "scripts": {
         "build": "webpack"

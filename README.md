@@ -1,3 +1,3 @@
 # sat
 
-> separated axis theorem
+> separating axis theorem
