@@ -7,7 +7,7 @@ export default class Collider<A extends Shape = Shape, B extends Shape = Shape> 
 
     public collide(method: "AABB" | "SAT" = "SAT") {
         if (method === "SAT") {
-            const sides = edges(this.a.vertices.map((p) => new Vector(p.x, p.y)).concat(edges(this.b.vertices.map((p) => new Vector(p.x, p.y)))));
+            const sides = edges(this.a.vertices.map((p) => new Vector(p.x, p.y))).concat(edges(this.b.vertices.map((p) => new Vector(p.x, p.y))));
 
             const axes = sides.map((side) => orthogonal(side).normalized);
 
